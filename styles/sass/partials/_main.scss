@@ -16,14 +16,24 @@ header{
     background-position: center;
     background-size: cover;
     height: 100vh;
+    h1,h2{
+        color: variables.$white;
+        font-family: variables.$secondaryFont;
+    }
 }
 
 h1{
-    font-family: variables.$secondaryFont;
     text-transform: lowercase;
     font-weight: 900;
     margin: 0;
     color: variables.$white;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    text-align: center;
 }
 
 nav{
@@ -52,4 +62,15 @@ nav{
         padding: 15px 30px;
         color: variables.$veryDarkDeSaturatedBlue;
         text-transform: uppercase;
+    }
+
+    .headerArrowTitle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 9rem;
+        .arrowDown{
+            margin-top: 9.5rem;
+        }
     }
