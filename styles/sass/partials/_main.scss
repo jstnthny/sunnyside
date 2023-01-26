@@ -86,11 +86,16 @@ nav{
     }
 
     .featureText{
-        width: 40%;
-        margin: 0 auto;
+        width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        .centerText{
+            width: 60%;
+            margin: 0 auto;
+        }
         h3{
             font-family: variables.$secondaryFont;
             font-size: 2.5rem;
@@ -108,8 +113,23 @@ nav{
             text-transform: uppercase;
             font-family: variables.$secondaryFont;
             color: black;
-            text-decoration: variables.$yellow underline;
+            &:nth-of-type(1){
+                text-decoration: variables.$yellow underline;    
+                text-decoration-thickness: 4px;
+            }
+        }
+    }
+
+    .featureContainer:nth-of-type(2){
+        a{
+            text-decoration: #FE6F61 underline;
             text-decoration-thickness: 4px;
-            
+        }
+    }
+
+    .featureImage{
+        width: 50%;
+        img{
+            width: 100%;
         }
     }

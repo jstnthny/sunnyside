@@ -357,8 +357,7 @@ nav ul li a {
 }
 
 .featureText {
-  width: 40%;
-  margin: 0 auto;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -369,6 +368,12 @@ nav ul li a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.featureText .centerText {
+  width: 60%;
+  margin: 0 auto;
 }
 .featureText h3 {
   font-family: "Fraunces", serif;
@@ -387,7 +392,22 @@ nav ul li a {
   text-transform: uppercase;
   font-family: "Fraunces", serif;
   color: black;
+}
+.featureText a:nth-of-type(1) {
   -webkit-text-decoration: hsl(51deg, 100%, 49%) underline;
           text-decoration: hsl(51deg, 100%, 49%) underline;
   text-decoration-thickness: 4px;
+}
+
+.featureContainer:nth-of-type(2) a {
+  -webkit-text-decoration: #FE6F61 underline;
+          text-decoration: #FE6F61 underline;
+  text-decoration-thickness: 4px;
+}
+
+.featureImage {
+  width: 50%;
+}
+.featureImage img {
+  width: 100%;
 }
