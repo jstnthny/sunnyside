@@ -345,3 +345,49 @@ nav ul li a {
 .headerArrowTitle .arrowDown {
   margin-top: 9.5rem;
 }
+
+.features {
+  background-color: #FFFBF8;
+}
+
+.featureContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.featureText {
+  width: 40%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.featureText h3 {
+  font-family: "Fraunces", serif;
+  font-size: 2.5rem;
+}
+.featureText h3 span {
+  display: block;
+}
+.featureText p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 30px 0;
+}
+.featureText a {
+  text-transform: uppercase;
+  font-family: "Fraunces", serif;
+  color: black;
+  -webkit-text-decoration: hsl(51deg, 100%, 49%) underline;
+          text-decoration: hsl(51deg, 100%, 49%) underline;
+  text-decoration-thickness: 4px;
+}
