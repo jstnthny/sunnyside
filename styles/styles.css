@@ -349,6 +349,9 @@ nav ul li a {
 .features {
   background-color: #FFFBF8;
 }
+.features img {
+  display: block;
+}
 
 .featureContainer {
   display: -webkit-box;
@@ -410,4 +413,21 @@ nav ul li a {
 }
 .featureImage img {
   width: 100%;
+}
+
+.twoByTwo .featureImage {
+  position: relative;
+}
+
+.twoByTwoText {
+  position: absolute;
+  top: 60%;
+  text-align: center;
+}
+.twoByTwoText h3 {
+  margin: 20px 0;
+}
+.twoByTwoText p {
+  width: 50%;
+  margin: 0 auto;
 }

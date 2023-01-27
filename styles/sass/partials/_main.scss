@@ -79,6 +79,9 @@ nav{
 
     .features{
         background-color: variables.$featuresBg;
+        img{
+            display: block;
+        }
     }
 
     .featureContainer{
@@ -133,3 +136,24 @@ nav{
             width: 100%;
         }
     }
+
+    .twoByTwo{
+        .featureImage{
+            position: relative;
+        }
+    }
+
+    .twoByTwoText{
+        position: absolute;
+        top:60%;
+        text-align: center;
+        h3{
+            margin: 20px 0;
+        }
+        p{
+            width:50%;
+            margin: 0 auto;
+        }
+    }
+
+
