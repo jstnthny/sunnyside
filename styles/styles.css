@@ -469,11 +469,15 @@ nav ul li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .clients .client {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -594,5 +598,25 @@ footer .social-icons path:hover {
   }
   .twoByTwoText p {
     width: 90%;
+  }
+  .clients {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .clients .client {
+    width: 100%;
+  }
+  .clients .client p {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .gallery-images {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .gallery-images img {
+    width: 50%;
   }
 }

@@ -194,8 +194,10 @@ nav{
 
     .clients{
         display: flex;
+        flex-wrap: wrap;
         .client{
             display: flex;
+            flex-wrap: wrap;
             flex-direction: column;
             align-items: center;
             text-align: center;
@@ -321,6 +323,26 @@ nav{
             top:48%;
             p{
                 width: 90%;
+            }
+        }
+        
+        .clients{
+            flex-direction: column;
+            .client{
+                width: 100%;
+                p{
+                    width: 90%;
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        // Gallery
+
+        .gallery-images{
+            flex-wrap: wrap;
+            img{
+                width: 50%;
             }
         }
     }
