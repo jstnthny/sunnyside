@@ -493,3 +493,12 @@ nav ul li a {
 .clients .client .client-position {
   font-size: 1rem;
 }
+
+.gallery-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.gallery-images img {
+  width: 25%;
+}
