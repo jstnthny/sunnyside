@@ -557,3 +557,42 @@ footer .social-icons {
 footer .social-icons path:hover {
   fill: white;
 }
+
+@media (max-width: 850px) {
+  nav ul {
+    display: none;
+  }
+  .headerArrowTitle .arrowDown {
+    margin-top: 6rem;
+  }
+  .featureContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .featureText {
+    width: 100%;
+  }
+  .featureImage {
+    width: 100%;
+  }
+  .featureContainer .featureText {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .twoByTwoText p {
+    width: 85%;
+  }
+}
+@media (max-width: 500px) {
+  .twoByTwoText {
+    top: 48%;
+  }
+  .twoByTwoText p {
+    width: 90%;
+  }
+}

@@ -272,3 +272,55 @@ nav{
             }
         }
     }
+
+    // Media Queries
+
+    @media (max-width: 850px) {
+        nav{
+            ul{
+                display: none;
+            }
+        }
+
+        .headerArrowTitle{
+            .arrowDown{
+                margin-top: 6rem;
+            }
+        }
+
+        .featureContainer{
+            flex-direction: column;
+        }
+
+        .featureText{
+            width: 100%;
+        }
+
+        .featureImage{
+            width: 100%;
+        }
+
+        .featureContainer{
+            .featureText{
+                order: 1;
+                text-align: center;
+                padding: 2rem 0;
+            }
+        }
+
+        .twoByTwoText{
+            p{
+                width: 85%;
+            }
+        }
+
+    }
+
+    @media (max-width:500px){
+        .twoByTwoText{
+            top:48%;
+            p{
+                width: 90%;
+            }
+        }
+    }
