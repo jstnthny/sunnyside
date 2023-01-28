@@ -74,6 +74,12 @@ nav{
         padding: 15px 30px;
         color: variables.$veryDarkDeSaturatedBlue;
         text-transform: uppercase;
+        &:hover{
+            background: rgba(255, 255, 255, 0.5);
+            color: white;
+            font-weight: bold;
+
+        }
     }
 
     .headerArrowTitle{
@@ -245,6 +251,9 @@ nav{
             a{
                 text-decoration: none;
                 color: #286F5F;
+                &:hover{
+                    color: white;
+                }
             }
             li{
                 font-family: variables.$mainFont;
@@ -256,5 +265,10 @@ nav{
             justify-content: center;
             gap: 20px;
             margin-top: 4.5rem;
+            path{
+                &:hover{
+                    fill: white;
+                }
+            }
         }
     }

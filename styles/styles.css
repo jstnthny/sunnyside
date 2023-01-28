@@ -336,6 +336,11 @@ nav ul li a {
   color: hsl(212deg, 27%, 19%);
   text-transform: uppercase;
 }
+.specialNav:hover {
+  background: rgba(255, 255, 255, 0.5);
+  color: white;
+  font-weight: bold;
+}
 
 .headerArrowTitle {
   display: -webkit-box;
@@ -532,6 +537,9 @@ footer .footer-nav a {
   text-decoration: none;
   color: #286F5F;
 }
+footer .footer-nav a:hover {
+  color: white;
+}
 footer .footer-nav li {
   font-family: "Barlow", sans-serif;
   font-weight: 400;
@@ -545,4 +553,7 @@ footer .social-icons {
           justify-content: center;
   gap: 20px;
   margin-top: 4.5rem;
+}
+footer .social-icons path:hover {
+  fill: white;
 }
