@@ -255,6 +255,10 @@ template {
   overflow: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 125%;
 }
