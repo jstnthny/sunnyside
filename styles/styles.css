@@ -638,6 +638,9 @@ footer .social-icons path:hover {
   }
 }
 @media (max-width: 500px) {
+  h2 {
+    font-size: 2.5rem;
+  }
   .twoByTwoText {
     top: 45%;
   }
