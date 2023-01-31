@@ -82,6 +82,11 @@ nav{
         }
     }
 
+    .hamburger{
+        display: none;
+        cursor: pointer;
+    }
+
     .headerArrowTitle{
         display: flex;
         flex-direction: column;
@@ -277,12 +282,51 @@ nav{
 
     // Media Queries
 
+    // Tablet
     @media (max-width: 850px) {
         nav{
             ul{
-                display: none;
+                left: -100%;
+                top: 80px;
+                flex-direction: column;
+                position: fixed;
+                background-color: white;
+                text-align: center;
+                transition: 0.3s;
+                li{
+                    margin: 16px 0;
+                    a{
+                        color: black;
+                    }
+                    .specialNav{
+                        background-color: yellow;
+                    }
+                }
             }
         }
+
+        .navMenu.active{
+            left: 25%;
+            width: 50%;
+            margin: 0 auto;
+            padding: 50px 0;
+        }
+
+        .hamburger{
+            display: block;
+        }
+
+        .clients{
+            flex-direction: column;
+            .client{
+                width: 90%;
+                p{
+                    max-height: none;
+                }
+            }
+        }
+
+        
 
         .headerArrowTitle{
             .arrowDown{
@@ -318,13 +362,24 @@ nav{
 
     }
 
+ 
+
+    // Mobile
     @media (max-width:500px){
         .twoByTwoText{
-            top:48%;
+            top:45%;
             p{
                 width: 90%;
+                font-size: 1rem;
             }
         }
+
+    }
+    
+    .headerArrowTitle{
+    .arrowDown{
+        margin-top: 2rem;
+    }
         
         .clients{
             flex-direction: column;
